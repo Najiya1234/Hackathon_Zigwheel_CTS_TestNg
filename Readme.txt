@@ -38,11 +38,3 @@ This Java Selenium project automates tasks on the Zigwheel site, including navig
 -maven-compiler-plugin
 -maven-surefire-plugin
 
-#HOW TO RUN
-By Testng
-		-RUN testng.xml file  		
-
-### Contributor
-- Najiya Qureshi
-- 2303619
-- [Cognizant Technology Solution]

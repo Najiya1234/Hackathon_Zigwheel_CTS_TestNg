@@ -1,0 +1,54 @@
+18:42:16.891 [main] INFO  testCases.TC_1_UpcomingBikes - Chrome browser opened successfully
+18:42:33.307 [main] INFO  testCases.TC_1_UpcomingBikes - ***Starting TC_1_UpcomingBikes
+18:42:33.481 [main] INFO  testCases.TC_1_UpcomingBikes - *********verifing Home Title ***********
+18:42:33.499 [main] INFO  testCases.TC_1_UpcomingBikes - got the page title
+18:42:34.449 [main] INFO  testCases.TC_1_UpcomingBikes - Move to New Bikes Dropdown
+18:42:34.947 [main] INFO  testCases.TC_1_UpcomingBikes - ***********verifing Upcoming Bike Option ***********
+18:42:35.026 [main] INFO  testCases.TC_1_UpcomingBikes - Storing boolean value in actual
+18:42:35.031 [main] INFO  testCases.TC_1_UpcomingBikes - Verified upcoming bikes options
+18:42:36.525 [main] INFO  testCases.TC_1_UpcomingBikes - Click on Upcoming Bikes
+18:42:37.053 [main] INFO  testCases.TC_1_UpcomingBikes - ***********verifing Upcoming Bike Page url ***********
+18:42:37.651 [main] INFO  testCases.TC_1_UpcomingBikes - Verified Upcoming Bike Page url
+18:42:39.125 [main] INFO  testCases.TC_1_UpcomingBikes - From manufacturers dropdown select 'Honda'
+18:42:39.689 [main] INFO  testCases.TC_1_UpcomingBikes - ***********verify Honda title ***********
+18:42:39.793 [main] INFO  testCases.TC_1_UpcomingBikes - Verified Honda page title
+18:42:40.528 [main] INFO  testCases.TC_1_UpcomingBikes - Click on ViewMore
+18:42:43.173 [main] INFO  testCases.TC_1_UpcomingBikes - Get bike models, prices, and expected launch date for manufacturer 'Honda' & Bike price less than 4Lac
+18:42:45.341 [main] INFO  testCases.TC_1_UpcomingBikes - ***Finished TC_1_UpcomingBikes
+18:42:45.731 [main] INFO  testCases.TC_1_UpcomingBikes - ***Starting TC_2_UsedCars****
+18:42:46.412 [main] INFO  testCases.TC_1_UpcomingBikes - Checking visibility of used cars dropdown
+18:42:47.003 [main] INFO  testCases.TC_1_UpcomingBikes - Move to used cars dropdown
+18:42:54.946 [main] INFO  testCases.TC_1_UpcomingBikes - Click on Chennai city
+18:42:56.459 [main] INFO  testCases.TC_1_UpcomingBikes - Extracting all the popular models
+18:42:56.459 [main] INFO  testCases.TC_1_UpcomingBikes - ***Finished TC_2_UsedCars****
+18:42:57.096 [main] INFO  testCases.TC_1_UpcomingBikes - ***Starting TC_3_GoogleSignin***
+18:43:02.059 [main] INFO  testCases.TC_1_UpcomingBikes - Click on Forum
+18:43:02.323 [main] INFO  testCases.TC_1_UpcomingBikes - ***********verifing Forum Page Title ***********
+18:43:02.333 [main] INFO  testCases.TC_1_UpcomingBikes - Verified Forum Page title
+18:43:03.149 [main] INFO  testCases.TC_1_UpcomingBikes - Click on signup
+18:43:03.770 [main] INFO  testCases.TC_1_UpcomingBikes - click on Google
+18:43:07.997 [main] INFO  testCases.TC_1_UpcomingBikes - Signin with wrong Email account deatils
+18:43:09.162 [main] INFO  testCases.TC_1_UpcomingBikes - Click on Next button
+18:49:25.759 [main] INFO  testCases.TC_1_UpcomingBikes - Chrome browser opened successfully
+18:49:50.567 [main] INFO  testCases.TC_1_UpcomingBikes - ***Starting TC_1_UpcomingBikes
+18:49:50.636 [main] INFO  testCases.TC_1_UpcomingBikes - *********verifing Home Title ***********
+18:49:50.657 [main] INFO  testCases.TC_1_UpcomingBikes - got the page title
+18:49:51.366 [main] INFO  testCases.TC_1_UpcomingBikes - Move to New Bikes Dropdown
+18:49:51.886 [main] INFO  testCases.TC_1_UpcomingBikes - ***********verifing Upcoming Bike Option ***********
+18:49:51.974 [main] INFO  testCases.TC_1_UpcomingBikes - Storing boolean value in actual
+18:49:51.977 [main] INFO  testCases.TC_1_UpcomingBikes - Verified upcoming bikes options
+18:50:00.049 [main] INFO  testCases.TC_1_UpcomingBikes - Click on Upcoming Bikes
+18:50:00.457 [main] INFO  testCases.TC_1_UpcomingBikes - ***********verifing Upcoming Bike Page url ***********
+18:50:00.470 [main] INFO  testCases.TC_1_UpcomingBikes - Verified Upcoming Bike Page url
+18:50:04.084 [main] INFO  testCases.TC_1_UpcomingBikes - From manufacturers dropdown select 'Honda'
+18:50:04.553 [main] INFO  testCases.TC_1_UpcomingBikes - ***********verify Honda title ***********
+18:50:04.564 [main] INFO  testCases.TC_1_UpcomingBikes - Verified Honda page title
+18:50:05.795 [main] INFO  testCases.TC_1_UpcomingBikes - Click on ViewMore
+18:50:08.961 [main] INFO  testCases.TC_1_UpcomingBikes - Get bike models, prices, and expected launch date for manufacturer 'Honda' & Bike price less than 4Lac
+18:50:12.239 [main] INFO  testCases.TC_1_UpcomingBikes - ***Finished TC_1_UpcomingBikes
+18:50:12.995 [main] INFO  testCases.TC_1_UpcomingBikes - ***Starting TC_2_UsedCars****
+18:50:13.679 [main] INFO  testCases.TC_1_UpcomingBikes - Checking visibility of used cars dropdown
+18:50:14.212 [main] INFO  testCases.TC_1_UpcomingBikes - Move to used cars dropdown
+18:50:44.567 [main] INFO  testCases.TC_1_UpcomingBikes - Click on Chennai city
+18:50:46.011 [main] INFO  testCases.TC_1_UpcomingBikes - Extracting all the popular models
+18:50:46.011 [main] INFO  testCases.TC_1_UpcomingBikes - ***Finished TC_2_UsedCars****

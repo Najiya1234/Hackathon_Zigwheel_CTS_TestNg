@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="24" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-04T12:19:53 IST" name="Suite" finished-at="2024-03-04T12:20:34 IST" duration-ms="40825">
+    <groups>
+      <group name="regression">
+        <method signature="TC_1_UpcomingBikes.upcomingBikes()[pri:4, instance:testCases.TC_1_UpcomingBikes@3ba987b8]" name="upcomingBikes" class="testCases.TC_1_UpcomingBikes"/>
+        <method signature="TC_1_UpcomingBikes.manufacturersDropdown()[pri:6, instance:testCases.TC_1_UpcomingBikes@3ba987b8]" name="manufacturersDropdown" class="testCases.TC_1_UpcomingBikes"/>
+        <method signature="TC_1_UpcomingBikes.viewMoreBikesclick()[pri:8, instance:testCases.TC_1_UpcomingBikes@3ba987b8]" name="viewMoreBikesclick" class="testCases.TC_1_UpcomingBikes"/>
+        <method signature="TC_1_UpcomingBikes.ModelsLessThan4lakh()[pri:9, instance:testCases.TC_1_UpcomingBikes@3ba987b8]" name="ModelsLessThan4lakh" class="testCases.TC_1_UpcomingBikes"/>
+        <method signature="TC_2_UsedCars.popularModel()[pri:13, instance:testCases.TC_2_UsedCars@8458f04]" name="popularModel" class="testCases.TC_2_UsedCars"/>
+        <method signature="TC_3_GoogleSignin.signinWithEmail()[pri:18, instance:testCases.TC_3_GoogleSignin@48075da3]" name="signinWithEmail" class="testCases.TC_3_GoogleSignin"/>
+        <method signature="TC_3_GoogleSignin.emailNextButton()[pri:19, instance:testCases.TC_3_GoogleSignin@48075da3]" name="emailNextButton" class="testCases.TC_3_GoogleSignin"/>
+        <method signature="TC_3_GoogleSignin.ErrorMessage()[pri:20, instance:testCases.TC_3_GoogleSignin@48075da3]" name="ErrorMessage" class="testCases.TC_3_GoogleSignin"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC_1_UpcomingBikes.verifyHomeTitle()[pri:1, instance:testCases.TC_1_UpcomingBikes@3ba987b8]" name="verifyHomeTitle" class="testCases.TC_1_UpcomingBikes"/>
+        <method signature="TC_1_UpcomingBikes.newBikesDropdown()[pri:2, instance:testCases.TC_1_UpcomingBikes@3ba987b8]" name="newBikesDropdown" class="testCases.TC_1_UpcomingBikes"/>
+        <method signature="TC_1_UpcomingBikes.verifyUpcomingBikeOption()[pri:3, instance:testCases.TC_1_UpcomingBikes@3ba987b8]" name="verifyUpcomingBikeOption" class="testCases.TC_1_UpcomingBikes"/>
+        <method signature="TC_1_UpcomingBikes.verifyUpcomingBikePageUrl()[pri:5, instance:testCases.TC_1_UpcomingBikes@3ba987b8]" name="verifyUpcomingBikePageUrl" class="testCases.TC_1_UpcomingBikes"/>
+        <method signature="TC_1_UpcomingBikes.verifyHondaSelected()[pri:7, instance:testCases.TC_1_UpcomingBikes@3ba987b8]" name="verifyHondaSelected" class="testCases.TC_1_UpcomingBikes"/>
+        <method signature="TC_2_UsedCars.visibilityOfUsedCarsDropdown()[pri:10, instance:testCases.TC_2_UsedCars@8458f04]" name="visibilityOfUsedCarsDropdown" class="testCases.TC_2_UsedCars"/>
+        <method signature="TC_2_UsedCars.usedCarsDropdown()[pri:11, instance:testCases.TC_2_UsedCars@8458f04]" name="usedCarsDropdown" class="testCases.TC_2_UsedCars"/>
+        <method signature="TC_2_UsedCars.selectChennaiUsedCars()[pri:12, instance:testCases.TC_2_UsedCars@8458f04]" name="selectChennaiUsedCars" class="testCases.TC_2_UsedCars"/>
+        <method signature="TC_3_GoogleSignin.clickForum()[pri:14, instance:testCases.TC_3_GoogleSignin@48075da3]" name="clickForum" class="testCases.TC_3_GoogleSignin"/>
+        <method signature="TC_3_GoogleSignin.verifyForumPageTitle()[pri:15, instance:testCases.TC_3_GoogleSignin@48075da3]" name="verifyForumPageTitle" class="testCases.TC_3_GoogleSignin"/>
+        <method signature="TC_3_GoogleSignin.clickSignup()[pri:16, instance:testCases.TC_3_GoogleSignin@48075da3]" name="clickSignup" class="testCases.TC_3_GoogleSignin"/>
+        <method signature="TC_3_GoogleSignin.clickGoogle()[pri:17, instance:testCases.TC_3_GoogleSignin@48075da3]" name="clickGoogle" class="testCases.TC_3_GoogleSignin"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TC_1_UpcomingBikes.verifyHomeTitle()[pri:1, instance:testCases.TC_1_UpcomingBikes@3ba987b8]" name="verifyHomeTitle" class="testCases.TC_1_UpcomingBikes"/>
+        <method signature="TC_1_UpcomingBikes.newBikesDropdown()[pri:2, instance:testCases.TC_1_UpcomingBikes@3ba987b8]" name="newBikesDropdown" class="testCases.TC_1_UpcomingBikes"/>
+        <method signature="TC_1_UpcomingBikes.verifyUpcomingBikeOption()[pri:3, instance:testCases.TC_1_UpcomingBikes@3ba987b8]" name="verifyUpcomingBikeOption" class="testCases.TC_1_UpcomingBikes"/>
+        <method signature="TC_1_UpcomingBikes.upcomingBikes()[pri:4, instance:testCases.TC_1_UpcomingBikes@3ba987b8]" name="upcomingBikes" class="testCases.TC_1_UpcomingBikes"/>
+        <method signature="TC_1_UpcomingBikes.verifyUpcomingBikePageUrl()[pri:5, instance:testCases.TC_1_UpcomingBikes@3ba987b8]" name="verifyUpcomingBikePageUrl" class="testCases.TC_1_UpcomingBikes"/>
+        <method signature="TC_1_UpcomingBikes.manufacturersDropdown()[pri:6, instance:testCases.TC_1_UpcomingBikes@3ba987b8]" name="manufacturersDropdown" class="testCases.TC_1_UpcomingBikes"/>
+        <method signature="TC_1_UpcomingBikes.verifyHondaSelected()[pri:7, instance:testCases.TC_1_UpcomingBikes@3ba987b8]" name="verifyHondaSelected" class="testCases.TC_1_UpcomingBikes"/>
+        <method signature="TC_1_UpcomingBikes.viewMoreBikesclick()[pri:8, instance:testCases.TC_1_UpcomingBikes@3ba987b8]" name="viewMoreBikesclick" class="testCases.TC_1_UpcomingBikes"/>
+        <method signature="TC_1_UpcomingBikes.ModelsLessThan4lakh()[pri:9, instance:testCases.TC_1_UpcomingBikes@3ba987b8]" name="ModelsLessThan4lakh" class="testCases.TC_1_UpcomingBikes"/>
+        <method signature="TC_2_UsedCars.visibilityOfUsedCarsDropdown()[pri:10, instance:testCases.TC_2_UsedCars@8458f04]" name="visibilityOfUsedCarsDropdown" class="testCases.TC_2_UsedCars"/>
+        <method signature="TC_2_UsedCars.usedCarsDropdown()[pri:11, instance:testCases.TC_2_UsedCars@8458f04]" name="usedCarsDropdown" class="testCases.TC_2_UsedCars"/>
+        <method signature="TC_2_UsedCars.selectChennaiUsedCars()[pri:12, instance:testCases.TC_2_UsedCars@8458f04]" name="selectChennaiUsedCars" class="testCases.TC_2_UsedCars"/>
+        <method signature="TC_2_UsedCars.popularModel()[pri:13, instance:testCases.TC_2_UsedCars@8458f04]" name="popularModel" class="testCases.TC_2_UsedCars"/>
+        <method signature="TC_3_GoogleSignin.clickForum()[pri:14, instance:testCases.TC_3_GoogleSignin@48075da3]" name="clickForum" class="testCases.TC_3_GoogleSignin"/>
+        <method signature="TC_3_GoogleSignin.verifyForumPageTitle()[pri:15, instance:testCases.TC_3_GoogleSignin@48075da3]" name="verifyForumPageTitle" class="testCases.TC_3_GoogleSignin"/>
+        <method signature="TC_3_GoogleSignin.clickSignup()[pri:16, instance:testCases.TC_3_GoogleSignin@48075da3]" name="clickSignup" class="testCases.TC_3_GoogleSignin"/>
+        <method signature="TC_3_GoogleSignin.clickGoogle()[pri:17, instance:testCases.TC_3_GoogleSignin@48075da3]" name="clickGoogle" class="testCases.TC_3_GoogleSignin"/>
+        <method signature="TC_3_GoogleSignin.signinWithEmail()[pri:18, instance:testCases.TC_3_GoogleSignin@48075da3]" name="signinWithEmail" class="testCases.TC_3_GoogleSignin"/>
+        <method signature="TC_3_GoogleSignin.emailNextButton()[pri:19, instance:testCases.TC_3_GoogleSignin@48075da3]" name="emailNextButton" class="testCases.TC_3_GoogleSignin"/>
+        <method signature="TC_3_GoogleSignin.ErrorMessage()[pri:20, instance:testCases.TC_3_GoogleSignin@48075da3]" name="ErrorMessage" class="testCases.TC_3_GoogleSignin"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2024-03-04T12:19:53 IST" name="Test" finished-at="2024-03-04T12:20:34 IST" duration-ms="40825">
+      <class name="testCases.TC_3_GoogleSignin">
+        <test-method signature="clickForum()[pri:14, instance:testCases.TC_3_GoogleSignin@48075da3]" started-at="2024-03-04T12:20:24 IST" name="clickForum" finished-at="2024-03-04T12:20:28 IST" duration-ms="3484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickForum -->
+        <test-method signature="verifyForumPageTitle()[pri:15, instance:testCases.TC_3_GoogleSignin@48075da3]" started-at="2024-03-04T12:20:28 IST" name="verifyForumPageTitle" finished-at="2024-03-04T12:20:28 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForumPageTitle -->
+        <test-method signature="clickSignup()[pri:16, instance:testCases.TC_3_GoogleSignin@48075da3]" started-at="2024-03-04T12:20:29 IST" name="clickSignup" finished-at="2024-03-04T12:20:29 IST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSignup -->
+        <test-method signature="clickGoogle()[pri:17, instance:testCases.TC_3_GoogleSignin@48075da3]" started-at="2024-03-04T12:20:29 IST" name="clickGoogle" finished-at="2024-03-04T12:20:29 IST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickGoogle -->
+        <test-method signature="signinWithEmail()[pri:18, instance:testCases.TC_3_GoogleSignin@48075da3]" started-at="2024-03-04T12:20:30 IST" name="signinWithEmail" finished-at="2024-03-04T12:20:32 IST" duration-ms="1967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signinWithEmail -->
+        <test-method signature="emailNextButton()[pri:19, instance:testCases.TC_3_GoogleSignin@48075da3]" started-at="2024-03-04T12:20:32 IST" name="emailNextButton" finished-at="2024-03-04T12:20:32 IST" duration-ms="505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailNextButton -->
+        <test-method signature="ErrorMessage()[pri:20, instance:testCases.TC_3_GoogleSignin@48075da3]" started-at="2024-03-04T12:20:32 IST" name="ErrorMessage" finished-at="2024-03-04T12:20:32 IST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErrorMessage -->
+      </class> <!-- testCases.TC_3_GoogleSignin -->
+      <class name="testCases.TC_2_UsedCars">
+        <test-method signature="visibilityOfUsedCarsDropdown()[pri:10, instance:testCases.TC_2_UsedCars@8458f04]" started-at="2024-03-04T12:20:17 IST" name="visibilityOfUsedCarsDropdown" finished-at="2024-03-04T12:20:18 IST" duration-ms="791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visibilityOfUsedCarsDropdown -->
+        <test-method signature="usedCarsDropdown()[pri:11, instance:testCases.TC_2_UsedCars@8458f04]" started-at="2024-03-04T12:20:18 IST" name="usedCarsDropdown" finished-at="2024-03-04T12:20:18 IST" duration-ms="368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usedCarsDropdown -->
+        <test-method signature="selectChennaiUsedCars()[pri:12, instance:testCases.TC_2_UsedCars@8458f04]" started-at="2024-03-04T12:20:19 IST" name="selectChennaiUsedCars" finished-at="2024-03-04T12:20:23 IST" duration-ms="4311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectChennaiUsedCars -->
+        <test-method signature="popularModel()[pri:13, instance:testCases.TC_2_UsedCars@8458f04]" started-at="2024-03-04T12:20:24 IST" name="popularModel" finished-at="2024-03-04T12:20:24 IST" duration-ms="595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popularModel -->
+      </class> <!-- testCases.TC_2_UsedCars -->
+      <class name="testCases.TC_1_UpcomingBikes">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_1_UpcomingBikes@3ba987b8]" started-at="2024-03-04T12:19:54 IST" name="setup" finished-at="2024-03-04T12:20:04 IST" duration-ms="10333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyHomeTitle()[pri:1, instance:testCases.TC_1_UpcomingBikes@3ba987b8]" started-at="2024-03-04T12:20:04 IST" name="verifyHomeTitle" finished-at="2024-03-04T12:20:04 IST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomeTitle -->
+        <test-method signature="newBikesDropdown()[pri:2, instance:testCases.TC_1_UpcomingBikes@3ba987b8]" started-at="2024-03-04T12:20:05 IST" name="newBikesDropdown" finished-at="2024-03-04T12:20:05 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newBikesDropdown -->
+        <test-method signature="verifyUpcomingBikeOption()[pri:3, instance:testCases.TC_1_UpcomingBikes@3ba987b8]" started-at="2024-03-04T12:20:05 IST" name="verifyUpcomingBikeOption" finished-at="2024-03-04T12:20:05 IST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUpcomingBikeOption -->
+        <test-method signature="upcomingBikes()[pri:4, instance:testCases.TC_1_UpcomingBikes@3ba987b8]" started-at="2024-03-04T12:20:05 IST" name="upcomingBikes" finished-at="2024-03-04T12:20:07 IST" duration-ms="1362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- upcomingBikes -->
+        <test-method signature="verifyUpcomingBikePageUrl()[pri:5, instance:testCases.TC_1_UpcomingBikes@3ba987b8]" started-at="2024-03-04T12:20:07 IST" name="verifyUpcomingBikePageUrl" finished-at="2024-03-04T12:20:07 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUpcomingBikePageUrl -->
+        <test-method signature="manufacturersDropdown()[pri:6, instance:testCases.TC_1_UpcomingBikes@3ba987b8]" started-at="2024-03-04T12:20:08 IST" name="manufacturersDropdown" finished-at="2024-03-04T12:20:10 IST" duration-ms="2244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manufacturersDropdown -->
+        <test-method signature="verifyHondaSelected()[pri:7, instance:testCases.TC_1_UpcomingBikes@3ba987b8]" started-at="2024-03-04T12:20:10 IST" name="verifyHondaSelected" finished-at="2024-03-04T12:20:10 IST" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHondaSelected -->
+        <test-method signature="viewMoreBikesclick()[pri:8, instance:testCases.TC_1_UpcomingBikes@3ba987b8]" started-at="2024-03-04T12:20:11 IST" name="viewMoreBikesclick" finished-at="2024-03-04T12:20:11 IST" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewMoreBikesclick -->
+        <test-method signature="ModelsLessThan4lakh()[pri:9, instance:testCases.TC_1_UpcomingBikes@3ba987b8]" started-at="2024-03-04T12:20:11 IST" name="ModelsLessThan4lakh" finished-at="2024-03-04T12:20:16 IST" duration-ms="4984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ModelsLessThan4lakh -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_1_UpcomingBikes@3ba987b8]" started-at="2024-03-04T12:20:33 IST" name="tearDown" finished-at="2024-03-04T12:20:34 IST" duration-ms="1545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_1_UpcomingBikes -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

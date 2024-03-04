@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <parameter name="os" value="windows"/>
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="master"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testCases.TC_3_GoogleSignin">
+        <methods>
+          <include name="tearDown"/>
+          <include name="clickSignup"/>
+          <include name="emailNextButton"/>
+          <include name="verifyForumPageTitle"/>
+          <include name="clickGoogle"/>
+          <include name="clickForum"/>
+          <include name="setup"/>
+          <include name="ErrorMessage"/>
+        </methods>
+      </class> <!-- testCases.TC_3_GoogleSignin -->
+      <class name="testCases.TC_1_UpcomingBikes">
+        <methods>
+          <include name="tearDown"/>
+          <include name="ModelsLessThan4lakh"/>
+          <include name="verifyUpcomingBikePageUrl"/>
+          <include name="upcomingBikes"/>
+          <include name="setup"/>
+          <include name="newBikesDropdown"/>
+          <include name="verifyHondaSelected"/>
+          <include name="verifyHomeTitle"/>
+          <include name="verifyUpcomingBikeOption"/>
+          <include name="viewMoreBikesclick"/>
+          <include name="manufacturersDropdown"/>
+        </methods>
+      </class> <!-- testCases.TC_1_UpcomingBikes -->
+      <class name="testCases.TC_2_UsedCars">
+        <methods>
+          <include name="usedCarsDropdown"/>
+          <include name="tearDown"/>
+          <include name="visibilityOfUsedCarsDropdown"/>
+          <include name="selectChennaiUsedCars"/>
+          <include name="popularModel"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_2_UsedCars -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

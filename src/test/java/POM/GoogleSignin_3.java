@@ -38,7 +38,9 @@ public class GoogleSignin_3 extends basepage{
 	 @FindBy(xpath = "//span[contains(text(),'Next')]")
      WebElement emailNextButton;
 	 
-	 @FindBy(xpath="//div[@class='o6cuMc Jj6Lae' and contains(text(),'Enter a valid email or phone number')]")
+	@FindBy(xpath="//div[contains(text(),'Enter a valid email or phone number')]")
+	//div[@class='o6cuMc Jj6Lae' and contains(text(),'Enter a valid email or phone number')]
+	
      WebElement errorMessage;
 	 
 	 public void click_Forum() {

@@ -54,7 +54,9 @@ public void move_To_Dropdown() {
 
 public void select_Chennai_Used_Cars() {
     
-	usedCarsChennai.click();
+	// usedCarsChennai.click();
+	executor =(JavascriptExecutor) driver;
+	executor.executeScript("arguments[0].click();",	usedCarsChennai);
 }
 
 public void popular_Model(){
